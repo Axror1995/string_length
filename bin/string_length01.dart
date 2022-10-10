@@ -5,13 +5,12 @@
         a: string
     Returns:
         length of string */
+import 'dart:typed_data';
+
+int func(String n) {
+  return n.length;
+}
 
 void main() {
-  String s;
-  s = 'AXROR';
-  int n;
-  n = s.length;
-
-  print(n);
-  // write your code here
+  print(func('AXOR RAXIMOV'));
 }
