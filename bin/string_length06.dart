@@ -7,6 +7,14 @@
     Returns:
         shortest string
 */
+int func(String a, String b) {
+  if (a.length < b.length) {
+    return a.length;
+  }
+  return b.length;
+}
+
 void main() {
+  print(func('Axror', 'Raximov'));
   // write your code here
 }
