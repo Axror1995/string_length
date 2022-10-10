@@ -7,5 +7,11 @@
         length of string */
 
 void main() {
+  String s;
+  s = 'AXROR';
+  int n;
+  n = s.length;
+
+  print(n);
   // write your code here
 }
