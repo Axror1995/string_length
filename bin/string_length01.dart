@@ -11,6 +11,4 @@ int func(String n) {
   return n.length;
 }
 
-void main() {
-  print(func('AXOR RAXIMOV'));
-}
+void main() {}
