@@ -7,6 +7,17 @@
     Returns:
         True or False
 */
-void main() {
-  // write your code here
+
+bool func(String n, String m) {
+  if (n.length == m.length) {
+    return true;
+  }
+  return false;
 }
+
+void main() {
+  print(func('AXRO', 'AXROR'));
+}
+
+  // write your code here
+
