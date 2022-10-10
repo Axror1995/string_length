@@ -7,6 +7,16 @@
     Returns:
         string
 */
+
+String func(String a, String b) {
+  if (a.length % 2 == 1 && b.length % 2 == 1) {
+    return b;
+  }
+  return a;
+}
+
 void main() {
+  print(func('Axror', 'Raximov'));
+
   // write your code here
 }
