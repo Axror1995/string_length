@@ -7,11 +7,11 @@
     Returns:
         shortest string
 */
-int func(String a, String b) {
+String func(String a, String b) {
   if (a.length < b.length) {
-    return a.length;
+    return a;
   }
-  return b.length;
+  return b;
 }
 
 void main() {
