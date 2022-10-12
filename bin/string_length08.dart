@@ -13,12 +13,12 @@ void main() {
 }
 
 String func(String s) {
-  int a;
+  int b;
   if (s.length % 2 == 0) {
-    a = s.length ~/ 2;
-    return s[a - 1] + s[a];
+    b = s.length ~/ 2;
+    return s[b - 1] + s[b];
   } else {
-    a = s.length ~/ 2;
-    return s[a];
+    b = s.length ~/ 2;
+    return s[b];
   }
 }
