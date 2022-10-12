@@ -6,7 +6,11 @@
     Returns:
         bool: answer
 */
+String func(String s) {
+  return (s.toUpperCase());
+}
 
 void main() {
+  print(func('axror'));
   // write your code here
 }

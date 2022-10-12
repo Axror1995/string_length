@@ -5,7 +5,10 @@
         a: string
     Returns:
         length of string */
+import 'dart:typed_data';
 
-void main() {
-  // write your code here
+int func(String n) {
+  return n.length;
 }
+
+void main() {}
